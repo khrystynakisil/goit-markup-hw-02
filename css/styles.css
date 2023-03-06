@@ -1,0 +1,133 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color:#2E2F42;
+  background-color: #e5e5e5;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+.logo-one {
+  font-family: "Raleway", sans-serif;
+  font-style: ExtraBold;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1,3;
+  letter-spacing: 0,03em;
+  color: #4D5AE5;
+}
+.logo-two{
+  font-family: "Raleway", sans-serif;
+  font-style: ExtraBold;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1,3;
+  letter-spacing:0,03em;
+ 
+
+}
+.menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0,6;
+  letter-spacing: 0.02em;
+ 
+}
+.menu-link:focus {
+  color: #404bbf;
+}
+.contacts-mail,
+.contacts-cell {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0,6;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-mail:hover,
+.contacts-mail:focus,
+.contacts-cell:hover,
+.contacts-cell:focus {
+  color: #404bbf;
+}
+
+.modal-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0, 6;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
+}
+/* Main */
+.header-one{
+  font-style: bold;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 0,9;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.header-two{
+  font-style: bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0,9;
+  letter-spacing: 0.02em;
+}
+.header-three{
+  font-style: medium;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0,8;
+  letter-spacing: 0.02em;
+}
+.header-three-desc {
+  font-style: regular;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0,6;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Footer */
+.footer-desc {
+  font-style: regular;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0,6;
+  letter-spacing: 0.02em;
+  color:#E7E9FC;
+}
+/* portfolio.html */
+.modal-btn-two{
+  color: #F4F4FD;
+}
+.modal-btn-two-insc{
+  font-style: medium;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0,6;
+  letter-spacing: 0.04em;
+  color:#4D5AE5;
+}
+.modal-btn-two:hover,
+.modal-btn-two:focus{
+background-color: #404BBF;
+}
+.modal-btn-two-insc:hover,
+.modal-btn-two-insc:focus{
+color:#FFFFFF;
+}
