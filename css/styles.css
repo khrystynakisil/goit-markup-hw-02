@@ -33,10 +33,7 @@ body {
   letter-spacing: 0,03em;
   color: #F4F4FD;
 }
-.menu-list{
-  font-style: normal;
 
-}
 .menu-link {
   font-style: normal;
   font-weight: 500;
@@ -46,30 +43,14 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 
- 
 }
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
-.contacts{
+.adress-list{
   font-style: normal;
-
-}
-.contacts-mail,
-.contacts-cell {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 0,6;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.contacts-mail:hover,
-.contacts-mail:focus,
-.contacts-cell:hover,
-.contacts-cell:focus {
-  color: #404bbf;
+  color:  #434455 ;
 }
 
 .modal-btn {
@@ -140,9 +121,9 @@ body {
 }
 .employees{
   font-size: 36px;
-  text-align: center;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color:#2e2f42;
 }
