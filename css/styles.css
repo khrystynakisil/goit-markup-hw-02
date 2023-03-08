@@ -1,7 +1,10 @@
-
+:root{
+  --primery-text-color:#434455;
+  --secondary-text-color: #2e2f42;
+}
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455 ;
+  color: var(--primery-text-color);
   background-color: #e5e5e5;
 }
 .list {
@@ -25,7 +28,7 @@ body {
   font-style: ExtraBold;
   line-height: 1,3;
   letter-spacing: 0,03em;
-  color: #2e2f42;
+  color:var(--secondary-text-color);
 }
 .logo-two {
   font-style: ExtraBold;
@@ -41,7 +44,7 @@ body {
   line-height: 0,6;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 
 }
 .menu-link:hover,
@@ -50,7 +53,7 @@ body {
 }
 .adress-list{
   font-style: normal;
-  color:  #434455 ;
+  color: var(--primery-text-color);
 }
 
 .modal-btn {
@@ -72,7 +75,7 @@ body {
 }
 /* Main */
 .section-one{
-  background-color:#2e2f42;}
+  background-color:var(--secondary-text-color);}
 
 .header-one{
   font-style: bold;
@@ -90,7 +93,7 @@ body {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42 ;
+  color: var(--secondary-text-color);
   visibility: hidden;
 }
 .header-three{
@@ -107,7 +110,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--primery-text-color);
 }
 .content{
   font-style: bold;
@@ -117,7 +120,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 }
 .employees{
   font-size: 36px;
@@ -125,12 +128,12 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color:#2e2f42;
+  color:var(--secondary-text-color);
 }
 
 /* Footer */
 .footer{
-  background-color:#2e2f42;
+  background-color:var(--secondary-text-color);
 
 }
 .footer-desc {
@@ -173,13 +176,13 @@ color:#FFFFFF;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color:var(--secondary-text-color);
 }
 .service-list-desc{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:  #434455;
+  color: var(--primery-text-color);
 }
 .buttons-list{
   visibility: hidden;
